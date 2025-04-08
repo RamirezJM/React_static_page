@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  ;
+}
+img {
+  width: 2em;
+  margin-inline: 1em;
+}
+
+header>p{
+  font-size: 1.5rem;
+  display: inline-block;
+  color: #61DBFB;
+  font-weight: 700;
+}
+main{
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1{
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+li::marker{
+  color: #61DBFB;
+    
+}
