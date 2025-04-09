@@ -8,7 +8,7 @@
 header{
   display: flex;
   align-items: center;
-  background-color: #21222A;
+  background-color: #000000;
   ;
 }
 img {
@@ -27,13 +27,20 @@ main{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
+  padding: 1em;
 }
 h1{
-  margin-bottom: 1em;
+  
   font-size: 2rem;
+  
 }
 
 li::marker{
   color: #61DBFB;
+  font-size: 1.5rem;
     
+}
+li{
+  margin-block: 1em;
 }
